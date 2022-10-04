@@ -23,7 +23,7 @@ function App() {
           num={num1} // passing num1 state to num props
           setNum={setNum1} // passing setNum1 function to setNum props
           list={listA} // passing listA state to list props
-          setList={setListA} // passing setListA function to setListA props
+          setList={setListA} // passing setListA function to setList props
         />
        
       </header>

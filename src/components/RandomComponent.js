@@ -30,12 +30,11 @@ const RandomComponent = ({ anyState, anyFunction, num, setNum, list, setList }) 
                 <button style={{padding: '10px', height: '20 px', borderRadius: '5px'}}
                     onClick={() => {
                         setList([{
-                        name: 'hello'
+                        name: 'Hello'
                     }, {
-                        name: 'world'
-                    }])
-                    console.log(list.length)}}>
-                    Click me to add some data inside list
+                        name: 'World'
+                    }])}}>
+                    Click me to add ["Hello", "World"] data inside listA
                 </button>
 
                 <NestedComponent 
